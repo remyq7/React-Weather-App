@@ -2,3 +2,72 @@
   font-family: sans-serif;
   text-align: center;
 }
+body {
+  background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+  background-size: 150%;
+}
+
+h1 {
+  font-family: "Dancing Script";
+  text-align: center;
+  margin-top: 10px;
+}
+
+.city-all {
+  display: inline;
+  text-align: center;
+  margin: 5px;
+}
+.main-submit {
+  display: inline;
+  position: relative;
+}
+
+#city {
+  background: #f785a3;
+  color: #fff;
+  font-size: 75px;
+  padding: 2px;
+}
+
+.alert-primary {
+  text-align: left;
+  margin: 0 50px;
+}
+
+.card {
+  text-align: center;
+  color: #1e79cb;
+  margin: 10px auto;
+  text-decoration: none;
+}
+.card .active {
+  color: #1e79cb;
+  cursor: default;
+}
+.card .active:hover {
+  text-decoration: none;
+}
+
+.weather-details {
+  list-style: none;
+  text-align: center;
+  color: #1e79cb;
+  padding: 0;
+  margin: 0 auto;
+}
+
+#forecast {
+  list-style: none;
+  color: #124069;
+  padding: 0;
+  margin: 0px;
+  text-align: center;
+  position: center;
+}
+
+h5 {
+  text-align: right;
+  margin: 50px;
+  color: #662436;
+}
